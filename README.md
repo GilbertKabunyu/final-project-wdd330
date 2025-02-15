@@ -16,3 +16,7 @@ contains books site, movie site, sports news site, and weather site at home page
 - git remote add origin https://github.com/GilbertKabunyu/final-project-wdd330.git
 - git branch -M main
 - git push -u origin main
+
+## others
+
+- production link: https://gilbertkabunyu.github.io/final-project-wdd330/
