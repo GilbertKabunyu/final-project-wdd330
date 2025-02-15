@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="../styles/movies.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li> <a href="sports.html">Sports</a></li>
+            <li class="ative"> <a href="books.html">Books</a></li>
+            <li> <a href="movies.html">Movies</a></li>
+        </ul>
+    </nav>
+    <h1>Book Search</h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for books...">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="results"></div>
+
+    <div id="reviews-modal">
+        <div id="reviews-content">
+            <span id="close-modal">&times;</span>
+            <h2 id="reviews-title"></h2>
+            <div id="reviews-list"></div>
+        </div>
+    </div>
+    <script src="../scripts/books.js"></script>
+</body>
+
+</html>

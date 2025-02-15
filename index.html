@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!--<link rel="stylesheet" href="styles/weather.css">-->
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="ative"><a href="index.html">Home</a></li>
+            <li> <a href="/public/sports.html">Sports</a></li>
+            <li> <a href="./public/books.html">Books</a></li>
+            <li> <a href="./public/movies.html">Movies</a></li>
+        </ul>
+    </nav>
+    <h1>Entertainment</h1>
+    <main class="main-home">
+
+        <section>
+            <h2>Books</h2>
+            <a href="./public/books.html"><img src="./images/book.jpg" alt="book logos"></a>
+        </section>
+        <section>
+            <h2>Sports</h2>
+            <a href="./public/sports.html"><img src="./images/sports.jpg" alt="sports logo"></a>
+        </section>
+        <section>
+            <h2>Movies</h2>
+            <a href="./public/movies.html"><img src="./images/movies.jpg" alt="movies logo"></a>
+        </section>
+        <section>
+            <h2>Weather</h2>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Enter city name...">
+                <button id="search-button">Search</button>
+            </div>
+            <div id="weather-result">
+                <!-- Weather data will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/weather.js"></script>
+    <footer>&copy;2025, Gilbert Kabunyu, WDD330</footer>
+</body>
+
+</html>
